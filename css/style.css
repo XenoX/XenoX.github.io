@@ -1,0 +1,204 @@
+/****** MAIN HEADER ******/
+
+#main {
+  padding: 0 5%;
+  background-color: #FAFAFA;
+}
+
+#main header {
+  margin-bottom: 150px;
+  padding-top: 120px;
+}
+
+#main header h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+#main header p {
+  font-size: 1.5rem;
+  margin: 7px 0 0 0;
+}
+
+#main header hr {
+  border: 0;
+  background-color: #81D4FA;
+  height: 2px;
+  width: 60px;
+  margin-top: 2px;
+}
+
+/****** MAIN TITLE ******/
+
+#main h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#main h2 i {
+  font-size: 2.2rem;
+  color: #81D4FA;
+  margin-right: 20px;
+}
+
+#main > section > hr {
+  border: 0;
+  background-color: #81D4FA;
+  height: 2px;
+  margin-top: 0;
+}
+
+/****** MAIN CONTENT ******/
+
+.content {
+  padding-top: 20px;
+}
+
+#training .content .item,
+#jobs .content .item {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 25px;
+}
+
+.content .informations {
+  width: 20%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.content .informations p {
+  width: 90%;
+  margin-top: 0;
+  padding: 0 10px 0 10px;
+}
+
+.content .informations i {
+  width: 10%;
+  font-size: 0.6rem;
+  vertical-align: middle;
+  color: #81D4FA;
+  margin: 5px 0 0 0;
+}
+
+.content .item .description {
+  width: 80%;
+  font-size: 0.9rem;
+}
+
+.content .item .description h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/****** MAIN RECOMMENDATIONS ******/
+
+#recommendations {
+  padding-bottom: 30px;
+}
+
+#recommendations .content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#recommendations .content .item {
+  width: 50%;
+}
+
+/****** ASIDE ******/
+
+.col-left {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: initial;
+}
+
+#hobbies {
+  margin-top: auto;
+}
+
+.hobbies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: #424242;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  padding: 5px 12%;
+}
+
+.hobbies i {
+  border: 3px solid #424242;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.aside-content {
+  padding: 0 10%;
+}
+
+.col-left {
+  background-color: #81D4FA;
+}
+
+.col-left h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.7em;
+  color: #81D4FA;
+  background-color: #424242;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  display: block;
+  margin: 50px auto 50px auto;
+  width: 60%;
+}
+
+/****** UTILS ******/
+
+.justify {
+  text-align: justify;
+}
+  
+.rounded {
+  border-radius: 50%;
+}
+
+.bordered {
+  border: 3px solid #212121;
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3);
+}
+
+.text-primary {
+  color: #81D4FA;
+}
+
+/****** GENERAL ******/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid #212121;
+}
+
+a {
+  text-decoration: none;
+  color: #455A64;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}

@@ -1,0 +1,16 @@
+.col-left h2 {
+  font-size: 1.4rem; 
+}
+
+#main header {
+  margin-bottom: 100px;
+  padding-top: 80px;
+}
+
+.avatar {
+  margin: 30px auto 30px auto;
+}
+
+.hobbies {
+  font-size: 1.7rem;
+}

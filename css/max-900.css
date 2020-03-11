@@ -1,0 +1,21 @@
+.container {
+  display: inline;
+  border: 0;
+}
+
+#main header h1 {
+  font-size: 3rem;
+}
+
+#main h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.content .item .description h3 {
+  font-size: 1rem;
+}
+
+.content .informations p {
+  font-size: 0.8rem;
+}
