@@ -1,27 +1,27 @@
 /****** MAIN HEADER ******/
 
-#main {
+main {
   padding: 0 5%;
   background-color: #FAFAFA;
 }
 
-#main header {
+main header {
   margin-bottom: 150px;
   padding-top: 120px;
 }
 
-#main header h1 {
+main header h1 {
   font-size: 4rem;
   font-weight: 100;
   margin: 0;
 }
 
-#main header p {
+main header p {
   font-size: 1.5rem;
   margin: 7px 0 0 0;
 }
 
-#main header hr {
+main header hr {
   border: 0;
   background-color: #81D4FA;
   height: 2px;
@@ -31,20 +31,20 @@
 
 /****** MAIN TITLE ******/
 
-#main h2 {
+main h2 {
   font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-#main h2 i {
+main h2 i {
   font-size: 2.2rem;
   color: #81D4FA;
   margin-right: 20px;
 }
 
-#main > section > hr {
+main > section > hr {
   border: 0;
   background-color: #81D4FA;
   height: 2px;
